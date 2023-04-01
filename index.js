@@ -1,5 +1,7 @@
 const mysql = require('mysql2');
+// import { createConnection } from 'mysql2
 const connection = require('./connection.js');
+// import { connection } from './connection.js'
 
 const db = mysql.createConnection(connection);
 
